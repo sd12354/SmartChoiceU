@@ -1,0 +1,132 @@
+* {
+  margin: auto;
+  font-family: 'Hind', sans-serif;;
+  background-color: #272727;
+  color: #6C63FF;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #6C63FF;
+  position:relative;
+  left: 0;
+  right: 0;
+  top: 15vh;
+  font-size: 3rem;
+  font-family: 'Jura', sans-serif;
+
+}
+
+.nav {
+  position: relative;
+  padding: 16px;
+  display:block;
+  width: 100vw;
+  height: 25px;
+  background-color: transparent;
+  border-bottom: 1px #6C63FF solid;
+  border-image: 
+  linear-gradient(
+    to bottom, 
+    red, 
+    rgba(0, 0, 0, 0)
+  ) 1 100%;
+}
+.nav a {
+  position: relative;
+  border-bottom: 1px transparent solid;
+  text-decoration: none;
+  background-color: transparent;
+  margin: 8px;
+  color: #6C63FF
+}
+
+.nav a:hover {
+  border-bottom: 1px white solid;
+}
+
+.search {
+  position: relative;
+  width: 100vw;
+  background-color: #6C63FF;
+  height: 500px;
+  top: 60vh;
+}
+
+.scroll-downs {
+  position: relative;
+  top: 25vh;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width :34px;
+  height: 55px;
+}
+.mousey {
+  width: 3px;
+  padding: 10px 15px;
+  height: 35px;
+  border: 2px solid #6C63FF;
+  border-radius: 25px;
+  opacity: 0.75;
+  box-sizing: content-box;
+}
+.scroller {
+  width: 3px;
+  height: 10px;
+  border-radius: 25%;
+  background-color: #6C63FF;
+  animation-name: scroll;
+  animation-duration: 2.2s;
+  animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+  animation-iteration-count: infinite;
+}
+@keyframes scroll {
+  0% { opacity: 0; }
+  10% { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(15px); opacity: 0;}
+}
+h2 {
+  background-color: transparent;
+  color:rgb(255, 255, 255)6);
+  text-align: center;
+}
+
+.search h2 {
+  color: white;
+  padding-top: 75px;
+  position: relative;
+}
+
+.searchbox {
+  background-color: transparent;
+  margin: auto;
+  width: 50%;
+  position: relative;
+  top: 50px;
+}
+.searchbox input {
+  background-color: white;
+  border-radius: 50px;
+  width: 400px;
+  height: 25px;
+  border: none;
+  justify-self: center;
+  display: block;
+ margin : 0 auto;
+ padding: 12px;
+}
+
+.searchbox button {
+  justify-self: center;
+  display: block;
+  margin : 0 auto;
+  color: #6C63FF;
+  border: none;
+  padding: 12px;
+  border-radius: 50px;
+  width: 400px;
+  background-color: white;
+}
